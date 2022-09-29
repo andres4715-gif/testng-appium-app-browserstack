@@ -59,7 +59,7 @@ public class BrowserStackTestNGTest {
           capabilities.setCapability("app", app);
         }
 
-        driver = new AndroidDriver(new URL("http://"+username+":"+accessKey+"@"+config.get("server")+"/wd/hub"), capabilities);
+        driver = new AndroidDriver(new URL("http://"+"andresrios_0yr4hW"+":"+"AgTMPbzyrrTNM7Tcx8ih"+"@"+config.get("server")+"/wd/hub"), capabilities);
     }
 
     @AfterMethod(alwaysRun=true)
