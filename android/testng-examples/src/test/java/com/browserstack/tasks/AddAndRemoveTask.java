@@ -1,4 +1,4 @@
-package com.browserstack.run_first_test;
+package com.browserstack.tasks;
 
 import org.openqa.selenium.By;
 
@@ -10,7 +10,7 @@ import pages.Users;
 import utility.TouchActions;
 import utility.Utils;
 
-public class FirstTest extends BrowserStackTestNGTest {
+public class AddAndRemoveTask extends BrowserStackTestNGTest {
 
     String userNameToSelectOfTheList = "Ervin Howell";
     String resourceId = "es.jaimesuarez.rindustest:id/fab_add_item";

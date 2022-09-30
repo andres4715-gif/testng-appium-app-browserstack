@@ -1,4 +1,4 @@
-package com.browserstack.run_first_test;
+package com.browserstack.tasks;
 
 import java.net.URL;
 import java.util.Map;
